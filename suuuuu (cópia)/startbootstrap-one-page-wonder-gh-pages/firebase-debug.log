@@ -1,0 +1,26 @@
+[debug] [2019-08-12T18:12:16.624Z] ----------------------------------------------------------------------
+[debug] [2019-08-12T18:12:16.629Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-12T18:12:16.629Z] CLI Version:   7.1.0
+[debug] [2019-08-12T18:12:16.629Z] Platform:      linux
+[debug] [2019-08-12T18:12:16.629Z] Node Version:  v8.10.0
+[debug] [2019-08-12T18:12:16.630Z] Time:          Mon Aug 12 2019 15:12:16 GMT-0300 (-03)
+[debug] [2019-08-12T18:12:16.630Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-12T18:12:16.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-12T18:12:16.643Z] > authorizing via signed-in user
+[debug] [2019-08-12T18:12:16.643Z] [iam] checking project trilhadasaude-d3f19 for permissions ["firebase.projects.get"]
+[debug] [2019-08-12T18:12:16.648Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/trilhadasaude-d3f19:testIamPermissions  
+
+[debug] [2019-08-12T18:12:17.827Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-12T18:12:17.831Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/trilhadasaude-d3f19  
+ 
+[debug] [2019-08-12T18:12:19.471Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/suelen/Área de Trabalho/suuuuu/startbootstrap-one-page-wonder-gh-pages'...
+[info] 
+[debug] [2019-08-12T18:12:19.478Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/trilhadasaude-d3f19/webApps/-/config  
+ 
+[debug] [2019-08-12T18:12:20.371Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5005
